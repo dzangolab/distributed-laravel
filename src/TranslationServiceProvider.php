@@ -1,10 +1,10 @@
 <?php
 
-namespace Dzangolab\Api\System;
+namespace Optimus\Api\System;
 
 use Illuminate\Translation\TranslationServiceProvider as BaseTranslationServiceProvider;
-use Dzangolab\Api\System\Translation\DistributedFileLoader;
-use Dzangolab\Api\System\Utilties;
+use Optimus\Api\System\Translation\DistributedFileLoader;
+use Optimus\Api\System\Utilties;
 
 class TranslationServiceProvider extends BaseTranslationServiceProvider
 {

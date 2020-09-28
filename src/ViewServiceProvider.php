@@ -1,10 +1,10 @@
 <?php
 
-namespace Dzangolab\Api\System;
+namespace Optimus\Api\System;
 
 use Illuminate\Contracts\Events\Dispatcher as DispatcherContract;
 use Illuminate\View\ViewServiceProvider as BaseViewServiceProvider;
-use Dzangolab\Api\System\Utilities;
+use Optimus\Api\System\Utilities;
 
 class ViewServiceProvider extends BaseViewServiceProvider
 {

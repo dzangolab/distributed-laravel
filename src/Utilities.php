@@ -1,6 +1,6 @@
 <?php
 
-namespace Dzangolab\Api\System;
+namespace Optimus\Api\System;
 
 class Utilities
 {

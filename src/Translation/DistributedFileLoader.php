@@ -1,6 +1,6 @@
 <?php
 
-namespace Dzangolab\Api\System\Translation;
+namespace Optimus\Api\System\Translation;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Translation\FileLoader;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dzangolab\Api\System;
+namespace Optimus\Api\System;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -95,7 +95,6 @@ class RouteServiceProvider extends ServiceProvider
                     $router->group([
                         'middleware' => ($protected === 2) ? $middleware : ($protected === 1 ? $basicMiddleware : []),
                         'namespace'  => $namespace,
-                        'prefix'     => $config['prefix'],
                     ], function ($router) use ($path) {
                         require $path;
                     });

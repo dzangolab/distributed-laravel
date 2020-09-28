@@ -17,7 +17,7 @@ class RouteServiceProvider extends ServiceProvider
     {
         $this->loadConfig();
 
-        parent::boot();
+        parent::register();
     }
 
     /**

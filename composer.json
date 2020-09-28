@@ -1,8 +1,8 @@
 {
-    "name": "optimus/distributed-laravel",
+    "name": "dzangolab/distributed-laravel",
     "autoload": {
         "psr-4": {
-            "Optimus\\Api\\System\\": "src/"
+            "Dzangolab\\Api\\System\\": "src/"
         }
     },
     "require": {
